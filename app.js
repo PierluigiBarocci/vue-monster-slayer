@@ -3,7 +3,7 @@ new Vue({
     data: {
         // setto i data: la salute di entrambi, booleano che indica se siamo in gioco, e un array vuota per i turni da stampare in <li>
         playerHealth: 100,
-        monsterHealth: 100,
+        monsterHealth: 80,
         gameIsRunning: false,
         turns: []
     },
